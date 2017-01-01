@@ -1,4 +1,5 @@
 
+// Question 1: For Loop 
 function forLoop(array) {
   var i; 
   for (let i = 0; i < 25; i++) {
@@ -8,11 +9,23 @@ function forLoop(array) {
   return array  
 }
 
-//let Spy = 86; 
+// Question 2: While Loop 
 function whileLoop(n){
-  while (n >= 0){
+  while (n > 0){
     console.log(n--) 
   }
   return 'done'
 }
+
+// Question 3: DoWhile Loop 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+function doWhileLoop(array) {
+  do {array.shift()}
+  while (array.length >= 0 && maybeTrue() === false); 
+  return array 
+}
+
+
 
