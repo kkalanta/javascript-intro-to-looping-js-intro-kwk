@@ -8,4 +8,11 @@ function forLoop(array) {
   return array  
 }
 
+//let Spy = 86; 
+function whileLoop(n){
+  while (n >= 0){
+    console.log(n--) 
+  }
+  return 'done'
+}
 
