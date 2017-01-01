@@ -1,12 +1,12 @@
 
 // Question 1: For Loop 
 function forLoop(array) {
-  var i; 
-  for (let i = 0; i < 25; i++) {
+  var array = []; 
+  for (let i = 0; i <= 25; i++) {
     if (i === 1) {console.log(`"I am 1 strange loop."`)}
     else {console.log(`"I am ${i} strange loops."`)}
   }
-  return array  
+  return array   
 }
 
 // Question 2: While Loop 
@@ -23,9 +23,9 @@ function maybeTrue() {
 }
 function doWhileLoop(array) {
   do {array.shift()}
-  while (array.length >= 0 && maybeTrue() === false); 
+  while (array.length = 0 && maybeTrue() === false); 
   return array 
-}
+} 
 
 
 
